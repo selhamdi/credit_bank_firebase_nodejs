@@ -1,1 +1,2 @@
-# personal_bank_loan
+npm i 
+npm start 
