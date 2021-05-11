@@ -19,7 +19,7 @@ export default ButtonShared
 const styles = StyleSheet.create({
     button: {
       alignItems: "center",
-      backgroundColor: "#ed3b45",
+      backgroundColor: "#fb5b5a",
       padding: 10,
       marginTop: 45,
       borderRadius: 30,
