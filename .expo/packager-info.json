@@ -1,0 +1,6 @@
+{
+  "expoServerNgrokUrl": "https://cf-pr9.anonymous.credit-bank.exp.direct",
+  "packagerNgrokUrl": "https://packager.cf-pr9.anonymous.credit-bank.exp.direct",
+  "ngrokPid": 27072,
+  "webpackServerPort": 19006
+}

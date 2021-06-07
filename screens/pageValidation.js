@@ -6,13 +6,10 @@ import { theme } from '../core/theme'
 import Header from '../components/shared/Header'
 import BackButton from '../components/shared/BackButton'
 import  AsyncStorage  from '@react-native-async-storage/async-storage';
-
 import Button from '../components/shared/Button'
 
 export default function PageValidation(props ) {
 
-     
-    
     const [value, setvalue] = useState('');
     const [value1, setvalue1] = useState('');
     const [value2, setvalue2] = useState('');
@@ -39,16 +36,9 @@ export default function PageValidation(props ) {
     },[]);
 
     function next(){
-      props.navigation.navigate("Validation"); 
-
-
+      props.navigation.navigate("Validation");
 
     }
-
-
-
-
-  
 
   return (
     <Background >
@@ -62,7 +52,7 @@ export default function PageValidation(props ) {
                 <Text style={{color: 'black'}}> mensualite :{value2}</Text>
 
                 <Button mode="contained" onPress={next}  >
-        Next 
+        valider 
       </Button>
           
 

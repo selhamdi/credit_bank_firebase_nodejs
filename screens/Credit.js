@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import { TouchableOpacity, StyleSheet, View } from 'react-native'
 import { Text } from 'react-native-paper'
-// import TextInput from '../components/shared/TextInput'
 import Background from '../components/shared/background'
 import { theme } from '../core/theme'
 import Header from '../components/shared/Header'
 import BackButton from '../components/shared/BackButton'
 import Button from '../components/shared/Button'
-// import Slide from '../components/shared/SlideInput'
 import Slider from '@react-native-community/slider';
 import  AsyncStorage  from '@react-native-async-storage/async-storage';
 
